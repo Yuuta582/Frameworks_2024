@@ -6,6 +6,6 @@ var rotaHome = require('./app/routes/home')(app);
 
 var rotaFormInclusaoNoticia = require('./app/routes/formulario_inclusao_noticias')(app);
 
-app.listen(3000, function(){
+app.listen(3000, function(){ //1321
     console.log('Servidor ON');
 });
